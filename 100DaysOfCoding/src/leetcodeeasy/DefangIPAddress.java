@@ -1,5 +1,11 @@
 package leetcodeeasy;
 
+/*
+ *  Input = 10.1.22.1
+ *  Output= 10[.]1[.]22[.]1
+ * 
+ * */
+
 public class DefangIPAddress {
 
 	public static void main(String[] args){
