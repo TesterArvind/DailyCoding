@@ -8,7 +8,7 @@ public class DuplicateElement {
 		// TODO Auto-generated method stub
 
 
-		String str = "automation";
+		String str = "aabbbbbccccccccskskaska";
 		char[] charArray= str.toCharArray();
 
 		HashMap<Character,Integer> map =new HashMap<Character, Integer>();
