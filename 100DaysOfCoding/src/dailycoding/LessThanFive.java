@@ -1,4 +1,4 @@
-package dailycoding;
+ package dailycoding;
 
 public class LessThanFive {
 
