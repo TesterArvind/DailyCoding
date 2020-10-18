@@ -1,25 +1,16 @@
 package LinkedList;
 
-public class RepresentSinglyLinkedList {
-	
-	
-//	 Linked list is a sequence of node, each node contains data 
-//	 and reference to next node.
-	
-	
-//	private ListNode head;
-	
-	public static void display(ListNode head){
+
+
+public class MiddleNodeOfLinkedList {
+
+
+	public static void middleNode(ListNode head){
 		if(head == null){return;}
 		ListNode current = head;
-		int count=0;
 		while(current != null){
-			count++;
-			System.out.println(current.data);
-			current= current.next;
-		}
-		System.out.println(count + " Is the length of Singly LinkedList");
-		
+			
+		}	
 	}
 	
 	private static class ListNode{
@@ -41,12 +32,14 @@ public class RepresentSinglyLinkedList {
 		ListNode second = new ListNode(2);
 		ListNode third = new ListNode(30);
 		ListNode fourth = new ListNode(4);
+		ListNode fifth = new ListNode(5);
 		
 		head.next=second;
 		second.next=third;
 		third.next=fourth;
+		fourth.next=fifth;
 		
-		display(head);
+		middleNode(head);
 
 	}
 
