@@ -6,7 +6,7 @@ import java.util.Set;
 
 public class RemoveDuplicateFromUnsortedArray {
 /*
- * Method 1 : Sort the Array
+ * Method 1 : Sort the Array and then remove duplicate
  * Method 2 : Use Set data structure
  * Method 3 : Use HashMap
  * 
@@ -14,7 +14,7 @@ public class RemoveDuplicateFromUnsortedArray {
 	
 	
 	public static void main(String[] args) {
-		int [] a = {1,2,3,4,12,1,2,3,4,12,3,4,5};
+		int [] a = {1,2,3,4,12,1,2,3,4,12,3,4,5 };
 		
 		Set<Integer> s = new HashSet<>();
 		
